@@ -1,0 +1,14 @@
+{
+  "name": "json-placeholder-sdk-test",
+  "version": "1.0.0",
+  "description": "test for json placeholder sdk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kwabenaampofo5@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@kwabena-ampofo/json-placeholder-sdk_ts": "^1.0.0"
+  }
+}

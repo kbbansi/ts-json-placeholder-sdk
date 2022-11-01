@@ -1,0 +1,25 @@
+{
+  "name": "@kwabena-ampofo/json-placeholder-sdk_ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.m.js",
+  "unpkg": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && microbundle --tsconfig tsconfig.json --no-sourcemap"
+  },
+  "keywords": [
+    "TypeScript",
+    "SDK"
+  ],
+  "author": "kwabenaampofo5@gmail.com",
+  "license": "ISC",
+  "files": ["dist"],
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "^3.1.0"
+  }
+}
